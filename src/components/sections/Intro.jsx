@@ -34,7 +34,7 @@ export default function Intro() {
                     </div>
 
                     {/* CIRCULAR OVERLAY IMAGE */}
-                    <div className="absolute bottom-4 right-30 md:right-0 md:-bottom-10 w-36 h-36 md:w-65 md:h-65 rounded-full overflow-hidden">
+                    <div className="absolute -bottom-4 -right-4 md:right-0 md:-bottom-10 w-36 h-36 md:w-65 md:h-65 rounded-full overflow-hidden">
                         <Image src="/img.jpg" alt="Decorative floral imagery"fill className="object-cover"/>
                     </div>
 
