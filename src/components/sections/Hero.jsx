@@ -6,13 +6,13 @@ export default function Hero() {
       {/* pt-28 = space for fixed navbar */}
 
       <div className="max-w-8xl mx-auto px-6 md:px-16">
-        <div className="grid grid-cols-1 md:grid-cols-2 pb-12 gap-4 items-center">
+        <div className="grid grid-cols-1 md:grid-cols-2 pb-12 md:pb-0 gap-4 items-center">
 
           {/* IMAGE */}
           <div className="flex justify-center md:justify-start">
             <div className="relative w-2xl max-w-md md:max-w-lg h-120 md:h-180">
               <div className="absolute inset-0 rounded-t-full overflow-hidden">
-                <Image src="/img.jpg"  alt="Calm therapy space in Santa Monica"
+                <Image src="/heroimg.jpg"  alt="Calm therapy space in Santa Monica"
                   fill className="object-cover" priority />
               </div>
             </div>
